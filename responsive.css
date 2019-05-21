@@ -1,0 +1,138 @@
+@media (max-width: 414px)
+{
+.sidebar {
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    background: #323544;
+    font-size: 0.65em;
+    overflow-x: scroll;
+}
+.about {
+    width: 100%;
+    height: 20%;
+    background-color: #a48ad4;
+}
+.flaticon-user {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    height: auto;
+    float: none;
+}
+.flaticon-user:before {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-left:0 !important;
+    text-align:center;
+}
+.navigation ul {
+
+    margin-left: 0;
+    padding: 0;
+    list-style: none;
+    width: 90%;
+
+}
+  .navigation li a {
+    margin-left: 5%;
+    text-decoration: none;
+    font-size: 8px;
+    color: white;
+    display: block;
+    width: 66%;
+    text-align: center;
+}
+.navigation .flaticoni::before
+ {
+    font-size: 40px;
+    color: white;
+    float: left;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.about-info{
+    width: 90%;
+    float: left;
+    padding: 5%;
+    margin-top: 15%;
+    text-align: center;
+}
+.about-info p, .about-info h4 {
+    width: 100%;
+    color: white;
+    margin: 0;
+    font-size: 10px;
+}
+.c100.big {
+
+    font-size: 100px;
+    top: 3%;
+
+}
+}
+
+@media (min-width: 768px)
+{
+ .flaticon-user {
+
+    position: relative;
+    top: 10%;
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    margin-left: 0;
+
+}
+.about-info {
+
+    width: 100%;
+    float: left;
+    margin-top: 8%;
+
+}
+.about-info p, .about-info h4 {
+
+    width: 100%;
+    color: white;
+    margin: 0;
+    font-size: 10px;
+    text-align: center;
+
+}
+.navigation .flaticoni::before {
+
+    font-size: 40px;
+    color: white;
+    float: left;
+    width: 30%;
+    margin-left: auto;
+    margin-right: 3%;
+    text-align: center;
+
+}}
+@media (min-width: 800px){
+.about {
+
+    width: 100%;
+    height: 13%;
+    background-color: #a48ad4;
+
+}
+@media (max-width: 1280px){
+.about {
+
+    width: 100%;
+    height: 18%;
+    background-color: #a48ad4;
+
+}
+}
